@@ -1,0 +1,4 @@
+3
+100 Gigel 3 7 7 6
+200 Maricica 4 3 3 3 10
+300 Dorel 2 8 9

@@ -1,0 +1,2 @@
+C:\Users\Administrator\source\repos\SDD2026\Seminar_3\Sem2SDD_1050\x64\Debug\Sem2SDD_1050.exe
+C:\Users\Administrator\source\repos\SDD2026\Seminar_3\Sem2SDD_1050\x64\Debug\Sem2SDD_1050.pdb

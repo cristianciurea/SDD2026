@@ -1,0 +1,12 @@
+﻿  lista_simpla.c
+C:\Users\Administrator\Desktop\Sem2SDD_1050\lista_simpla.c(22,43): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Users\Administrator\Desktop\Sem2SDD_1050\lista_simpla.c(24,8): warning C4013: 'strcpy' undefined; assuming extern returning int
+C:\Users\Administrator\Desktop\Sem2SDD_1050\lista_simpla.c(43,21): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+C:\Users\Administrator\Desktop\Sem2SDD_1050\lista_simpla.c(44,19): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+C:\Users\Administrator\Desktop\Sem2SDD_1050\lista_simpla.c(58,21): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+C:\Users\Administrator\Desktop\Sem2SDD_1050\lista_simpla.c(59,19): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+C:\Users\Administrator\Desktop\Sem2SDD_1050\lista_simpla.c(70,20): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+C:\Users\Administrator\Desktop\Sem2SDD_1050\lista_simpla.c(85,20): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+C:\Users\Administrator\Desktop\Sem2SDD_1050\lista_simpla.c(94,1): warning C4133: 'initializing': incompatible types - from 'nodLS *' to 'nodLS *'
+C:\Users\Administrator\Desktop\Sem2SDD_1050\lista_simpla.c(120,20): warning C4133: '=': incompatible types - from 'nodLS *' to 'nodLS *'
+  Sem2SDD_1050.vcxproj -> C:\Users\Administrator\Desktop\Sem2SDD_1050\Debug\Sem2SDD_1050.exe
