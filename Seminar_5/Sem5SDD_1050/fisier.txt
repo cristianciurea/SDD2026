@@ -1,0 +1,6 @@
+5
+100 monitor electronice 2599.90
+123 laptop electronice 8999.90
+200 cafea bauturi 35.90
+246 sirop bauturi 19.90
+300 telemea lactate 25.90

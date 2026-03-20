@@ -1,0 +1,6 @@
+5
+21 Gigel M 9.5
+23 Maricica F 9.6
+22 Vasile N 8.9
+21 Ionel N 9.2
+16 Vasilica F 9.7
