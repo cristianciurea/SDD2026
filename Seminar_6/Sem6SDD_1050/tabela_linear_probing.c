@@ -19,7 +19,7 @@ int functieHash(int cheie, hashT tabela)
 	return cheie % tabela.nrElem;
 }
 
-void inserareTabela(hashT tabela, student *s)
+void inserareTabela(hashT tabela, student* s)
 {
 	int poz = functieHash((*s).varsta, tabela);
 	if (tabela.vect[poz] == NULL)
@@ -28,12 +28,12 @@ void inserareTabela(hashT tabela, student *s)
 	{
 		//coliziune
 		int index = 1;
-		int ok = 0;
+		int vb = 0;
 		while (poz + index < tabela.nrElem)
 		{
 			if (tabela.vect[poz + index] == NULL)
 			{
-				ok = 1;
+				vb = 1;
 				poz += index;
 				tabela.vect[poz] = s;
 				break;
@@ -41,7 +41,7 @@ void inserareTabela(hashT tabela, student *s)
 			else
 				index++;
 		}
-		if (ok == 0)
+		if (vb == 0)
 		{
 			index = 1;
 			while (poz - index >= 0)
@@ -64,35 +64,61 @@ void traversareTabela(hashT tabela)
 	for(int i=0;i<tabela.nrElem;i++)
 		if (tabela.vect[i] != NULL)
 		{
-			printf("\nPozitie = %d", i);
+			printf("\nPozitie=%d", i);
 			printf("\nVarsta = %d, Nume = %s, Medie = %5.2f",
 				tabela.vect[i]->varsta, tabela.vect[i]->nume,
 				tabela.vect[i]->medie);
 		}
 }
 
-void stergereTabela(hashT tabela, int cheie)
+void dezalocareTabela(hashT tabela)
 {
-	
-	int poz = functieHash(cheie, tabela);
-		if (tabela.vect[poz]!=NULL && tabela.vect[poz]->varsta == cheie)
+	for(int i=0;i<tabela.nrElem;i++)
+		if (tabela.vect[i] != NULL)
 		{
-			free(tabela.vect[poz]->nume);
-			free(tabela.vect[poz]);
-			tabela.vect[poz] = NULL;
+			free(tabela.vect[i]->nume);
+			free(tabela.vect[i]);
 		}
-		else
+	free(tabela.vect);
+}
+
+void stergereTabela(hashT tabela, int varsta)
+{
+	int poz = functieHash(varsta, tabela);
+	if (tabela.vect[poz] != NULL && tabela.vect[poz]->varsta == varsta)
+	{
+		free(tabela.vect[poz]->nume);
+		free(tabela.vect[poz]);
+		tabela.vect[poz] = NULL;
+	}
+	else
+	{
+		int index = 1;
+		int vb = 0;
+		while (poz + index < tabela.nrElem)
 		{
-			//coliziune
-			int index = 1;
-			int ok = 0;
-			while (poz + index < tabela.nrElem)
+			if (tabela.vect[poz + index] != NULL &&
+				tabela.vect[poz+index]->varsta==varsta)
 			{
-				if (tabela.vect[poz+index]!=NULL &&
-					tabela.vect[poz + index]->varsta == cheie)
+				vb = 1;
+				poz += index;
+				free(tabela.vect[poz]->nume);
+				free(tabela.vect[poz]);
+				tabela.vect[poz] = NULL;
+				break;
+			}
+			else
+				index++;
+		}
+		if (vb == 0)
+		{
+			index = 1;
+			while (poz - index >= 0)
+			{
+				if (tabela.vect[poz - index] != NULL
+					&&tabela.vect[poz-index]->varsta==varsta)
 				{
-					ok = 1;
-					poz += index;
+					poz -= index;
 					free(tabela.vect[poz]->nume);
 					free(tabela.vect[poz]);
 					tabela.vect[poz] = NULL;
@@ -101,36 +127,8 @@ void stergereTabela(hashT tabela, int cheie)
 				else
 					index++;
 			}
-			if (ok == 0)
-			{
-				index = 1;
-				while (poz - index >= 0)
-				{
-					if (tabela.vect[poz - index] != NULL &&
-						tabela.vect[poz - index]->varsta==cheie)
-					{
-						poz -= index;
-						free(tabela.vect[poz]->nume);
-						free(tabela.vect[poz]);
-						tabela.vect[poz] = NULL;
-						break;
-					}
-					else
-						index++;
-				}
-			}
 		}
-}
-
-void dezalocareTabela(hashT tabela)
-{
-	for (int i = 0; i < tabela.nrElem; i++)
-		if (tabela.vect[i] != NULL)
-		{
-			free(tabela.vect[i]->nume);
-			free(tabela.vect[i]);
-		}
-	free(tabela.vect);
+	}
 }
 
 void main()
@@ -162,10 +160,7 @@ void main()
 
 	traversareTabela(tabela);
 
-	printf("\n----------------dupa stergere--------------\n");
-
-	stergereTabela(tabela, 25);
-
+	printf("\n---------------------dupa stergere---------\n");
 	stergereTabela(tabela, 26);
 
 	traversareTabela(tabela);

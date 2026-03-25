@@ -1,7 +1,7 @@
 7
 24 Dorel 9.5
-25 Maricica 9.7
 24 Ionel 8.9
+25 Maricica 9.7
 23 Gigel 9.3
 26 Marcel 9.2
 30 Marilena 10

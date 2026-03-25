@@ -1,0 +1,7 @@
+6
+24 Dorel 9.3
+25 Maricica 9.7
+24 Ionel 9.1
+26 Vasile 8.9
+23 Georgica 8.6
+26 Marilena 9.7
