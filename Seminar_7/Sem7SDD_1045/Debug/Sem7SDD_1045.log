@@ -1,0 +1,4 @@
+﻿  heap.c
+C:\Users\Administrator\Desktop\Sem7SDD_1045\heap.c(104,45): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Users\Administrator\Desktop\Sem7SDD_1045\heap.c(105,9): warning C4013: 'strcpy' undefined; assuming extern returning int
+  Sem7SDD_1045.vcxproj -> C:\Users\Administrator\Desktop\Sem7SDD_1045\Debug\Sem7SDD_1045.exe

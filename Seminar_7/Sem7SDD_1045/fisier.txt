@@ -1,0 +1,7 @@
+6
+5 mancare 500
+3 utilitati 700
+8 divertisment 400
+4 impozite 900
+9 haine 300
+7 transport 200
