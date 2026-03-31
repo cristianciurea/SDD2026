@@ -1,0 +1,7 @@
+6
+3 mananca 0.5
+1 alearga 1.5
+6 doarme 8
+4 studiaza 2
+5 relaxeaza 1.5
+2 curatenie 0.5
