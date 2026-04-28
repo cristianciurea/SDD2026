@@ -1,0 +1,7 @@
+6
+300 Anna_Karenina 1 58.5 350
+200 Mizerabilii 1 67.3 800
+500 Structuri_de_date 3 59.9 230
+100 Punguta_cu_doi_bani 1 38.5 100
+400 Ion 1 40 400
+600 Pinocchio 1 43.4 150
