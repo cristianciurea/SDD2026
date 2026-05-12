@@ -1,0 +1,4 @@
+C:\Users\Administrator\Desktop\Sem10SDD_1050\Debug\Sem10SDD_1050.exe
+C:\Users\Administrator\Desktop\Sem10SDD_1050\Debug\Sem10SDD_1050.pdb
+C:\Users\Administrator\source\repos\SDD2026\Seminar_11\Sem10SDD_1050\Debug\Sem10SDD_1050.exe
+C:\Users\Administrator\source\repos\SDD2026\Seminar_11\Sem10SDD_1050\Debug\Sem10SDD_1050.pdb

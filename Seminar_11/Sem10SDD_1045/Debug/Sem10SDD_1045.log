@@ -1,0 +1,27 @@
+﻿  Source.c
+C:\Users\Administrator\Desktop\Sem10SDD_1045\Source.c(23,40): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Users\Administrator\Desktop\Sem10SDD_1045\Source.c(24,8): warning C4013: 'strcpy' undefined; assuming extern returning int
+C:\Users\Administrator\Desktop\Sem10SDD_1045\Source.c(29,18): warning C4133: '=': incompatible types - from 'nodArb *' to 'nodArb *'
+C:\Users\Administrator\Desktop\Sem10SDD_1045\Source.c(30,19): warning C4133: '=': incompatible types - from 'nodArb *' to 'nodArb *'
+C:\Users\Administrator\Desktop\Sem10SDD_1045\Source.c(40,41): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+C:\Users\Administrator\Desktop\Sem10SDD_1045\Source.c(40,45): warning C4133: '=': incompatible types - from 'nodArb *' to 'nodArb *'
+C:\Users\Administrator\Desktop\Sem10SDD_1045\Source.c(46,44): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+C:\Users\Administrator\Desktop\Sem10SDD_1045\Source.c(46,48): warning C4133: '=': incompatible types - from 'nodArb *' to 'nodArb *'
+C:\Users\Administrator\Desktop\Sem10SDD_1045\Source.c(62,24): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+C:\Users\Administrator\Desktop\Sem10SDD_1045\Source.c(63,25): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+C:\Users\Administrator\Desktop\Sem10SDD_1045\Source.c(71,23): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+C:\Users\Administrator\Desktop\Sem10SDD_1045\Source.c(74,24): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+C:\Users\Administrator\Desktop\Sem10SDD_1045\Source.c(82,25): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+C:\Users\Administrator\Desktop\Sem10SDD_1045\Source.c(83,26): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+C:\Users\Administrator\Desktop\Sem10SDD_1045\Source.c(103,25): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+C:\Users\Administrator\Desktop\Sem10SDD_1045\Source.c(104,26): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+C:\Users\Administrator\Desktop\Sem10SDD_1045\Source.c(115,13): warning C4013: 'strcmp' undefined; assuming extern returning int
+C:\Users\Administrator\Desktop\Sem10SDD_1045\Source.c(120,35): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+C:\Users\Administrator\Desktop\Sem10SDD_1045\Source.c(121,36): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+C:\Users\Administrator\Desktop\Sem10SDD_1045\Source.c(134,36): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+C:\Users\Administrator\Desktop\Sem10SDD_1045\Source.c(135,37): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+C:\Users\Administrator\Desktop\Sem10SDD_1045\Source.c(150,46): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+C:\Users\Administrator\Desktop\Sem10SDD_1045\Source.c(151,31): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+C:\Users\Administrator\Desktop\Sem10SDD_1045\Source.c(186,23): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+C:\Users\Administrator\Desktop\Sem10SDD_1045\Source.c(188,24): warning C4133: 'function': incompatible types - from 'nodArb *' to 'nodArb *'
+  Sem10SDD_1045.vcxproj -> C:\Users\Administrator\Desktop\Sem10SDD_1045\Debug\Sem10SDD_1045.exe
